@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link ref="stylesheets" href="design.css">
+    <script src=
+    "https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js">
+        </script>
+        <script src=
+    "https://www.gstatic.com/firebasejs/8.2.7/firebase-database.js">
+        </script>
+      
+        <script src=
+    "https://www.gstatic.com/firebasejs/8.2.7/firebase-auth.js">
+        </script>
+    <title>Bootstrap demo</title>
+  </head>
+  <body>
+    <h1>basic form </h1>
+    <div>
+        <form >
+            <div><input placeholder="Please enter the name" type ="text" id="name" class="styling"></div>
+            <div><input placeholder="Please enter the contact number" type ="text" id="phone" class="styling"></div>
+            <div><input placeholder="Please enter the mail id" type ="email" id="email" class="styling"></div>
+            <div><input placeholder="Please enter the location (from)" type ="text" id="from" class="styling"></div>
+            <div><input placeholder="Please enter the location(to)" type ="text" id="to" class="styling"></div>
+            <div><input placeholder="Vehicle looking for" type ="text" id="type" class="styling"></div>
+            <div><input placeholder="Please Share your feedback" type ="text" id="comments" class="styling"></div>
+            <div><input placeholder="No of vehicles required" type ="text" id="number_of_vehicle" class="styling"></div>
+            <div ><input type="submit" text="submit" id="btn" class = "btn_style"></div>
+
+        </form>
+    </div>
+    
+    
+      <script src="connection.js"></script>
+  </body>
+</html>
